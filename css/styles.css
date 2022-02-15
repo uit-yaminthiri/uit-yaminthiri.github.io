@@ -1,0 +1,99 @@
+.active {
+    border-bottom: 3px solid #066;
+}
+.medium-font {
+    font-size: 30px;
+}
+.large-font {
+    font-size: 40px;
+}
+.navbar-brand img {
+    border-radius: 50%}
+#home a {
+    font-size: 120%;
+    color: #066;
+    border: 1px solid #066;
+}
+#home a:hover {
+    background: #066;
+    color: #fff;
+}
+#about-me {
+    background: #e6fff5;
+}
+#about-me p {
+    width: 75%}
+.border-bot {
+    width: 10%;
+    border-bottom: 3px solid #066;
+}
+#about p {
+    line-height: 30px;
+}
+#about .btn {
+    background: white;
+    color: #066;
+    border: 1px solid #066;
+}
+#about .btn:hover {
+    background: #066;
+    color: white;
+}
+.bachelor, .certificate {
+    border-bottom: 1px solid #ccccb3;
+}
+#education h3, #education small {
+    color: #066;
+}
+#education i {
+    color: #fff;
+    font-size: 30px;
+    background: #066;
+}
+#services, #technical-skills {
+    background: #e6fff5;
+}
+.progress-bar {
+    background: #367589;
+}
+#services ul {
+    font-size: 17px;
+}
+#services .fas {
+    color: #066;
+}
+#services p {
+    border: 1px solid #066;
+}
+#experience-1:hover, #experience-2:hover, #experience-3:hover, #services p:hover {
+    background: #066;
+    color: #fff;
+}
+#contact {
+    background: #e6fff5;
+}
+#contact a, #contact p {
+    color: #066;
+}
+@media only screen and (min-width:700px) and (max-width:1000px) {
+    .medium-font {
+    font-size: 20px;
+}
+.large-font {
+    font-size: 30px;
+}
+}@media only screen and (min-width:490px) and (max-width:690px) {
+    #about-me .border-bot, #about-me p {
+    margin: auto;
+}
+}@media only screen and (min-width:350px) and (max-width:480px) {
+    .large-font, .medium-font {
+    font-size: 15px;
+}
+#home a {
+    font-size: 13px;
+}
+#about-me .border-bot, #about-me p {
+    margin: auto;
+}
+}
